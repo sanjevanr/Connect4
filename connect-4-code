@@ -4,6 +4,7 @@ import random
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
+# the main menu for the game
 def print_board(board):
     clear_screen()
     print("========== Connect4 =========")
